@@ -1,0 +1,22 @@
+.w3-container{
+    background:#ec4503 ;
+    font-size: 200%;
+     border-width: 0;
+    box-shadow: 0 20px 28px 0 rgba(124, 75, 29, 0.2);
+    border-radius: 8px;
+    width:50%;
+    margin: auto;
+    
+}
+
+body{
+    background-color: #ffffff;
+    height:200%;
+    min-height: 1000px;
+}
+
+td,tr{
+
+    border-width: 20;
+    border-color: black;
+}

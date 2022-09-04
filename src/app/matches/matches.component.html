@@ -1,0 +1,17 @@
+<body>
+    <div class="w3-container">
+    
+        <table class="table table-bordered table-striped">
+       
+            <tbody *ngFor="let match of matches">
+                <tr><button class="user-btn" >
+                    {{match.id}} <br> {{ match.user}} <br>
+                    <button class="add-btn" (click)="goAddMatch(user.id)">Add Match</button>
+                </button></tr>
+        
+            </tbody>
+          </table>
+       
+        
+      </div>
+    </body>

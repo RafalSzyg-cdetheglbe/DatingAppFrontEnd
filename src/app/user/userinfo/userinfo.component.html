@@ -1,0 +1,18 @@
+<body>
+    <div class="w3-container">
+    
+        <table class="table table-bordered table-striped">
+       
+            <tbody *ngFor="let user of users">
+                <tr>Name: {{ user.firstName }} </tr>
+                <tr>Last Name: {{ user.lastName}} </tr>
+                <tr>Email: {{ user.email }} </tr>
+                <tr>Role: {{ user.userRole.name }} </tr>
+                <tr>Gender: {{ user.gender}} </tr>
+                <tr>I like: {{ user.genderInterest.name}} </tr>
+        
+            </tbody>
+          </table>
+        
+      </div>
+    </body>

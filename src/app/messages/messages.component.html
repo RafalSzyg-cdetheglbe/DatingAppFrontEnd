@@ -1,0 +1,17 @@
+<body>
+    <div class="w3-container">
+    
+        <table class="table table-bordered table-striped">
+       
+            <tbody *ngFor="let message of messages">
+                <tr>
+                  <a class="tresc">  {{message.user.firstName}} : {{ message.content}} </a>
+           
+                </tr>
+        
+            </tbody>
+          </table>
+          <button class="send-btn" (click)="send(content)">send</button>
+        
+      </div>
+    </body>

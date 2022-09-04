@@ -1,0 +1,54 @@
+.w3-container{
+    background:#ec4503 ;
+    width: 50%;
+    font-size: 200%;
+     border-width: 0;
+    box-shadow: 0 20px 28px 0 rgba(124, 75, 29, 0.2);
+    border-radius: 3px;
+    margin: auto;
+    
+}
+
+body{
+    background-color: #ffffff;
+    height:200%;
+    min-height: 1000px;
+}
+
+.user-btn{
+border-radius: 8px;
+background-color: #eea690;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 230%;
+  height: 100%;
+
+}
+
+.add-btn{
+  border-radius: 8px;
+  background-color: #c01e18;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:30%;
+    height: 100%;
+  
+  }
+
+.add-btn:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20) 0 0);
+  }

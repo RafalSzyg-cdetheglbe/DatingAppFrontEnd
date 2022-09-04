@@ -1,0 +1,17 @@
+<body>
+    <div class="w3-container">
+    
+        <table class="table table-bordered table-striped">
+       
+            <tbody *ngFor="let mm of matchmembers">
+                <tr><button class="user-btn" >
+                    Initiator: {{mm.match.user.firstName}} <br>Invited: {{mm.user.firstName}}<br>
+                    <button class="add-btn" (click)="goConversation(mm.match.id)">Go to {{mm.match.user.firstName}}'s Conversation</button>
+                </button></tr>
+        
+            </tbody>
+          </table>
+       
+        
+      </div>
+    </body>

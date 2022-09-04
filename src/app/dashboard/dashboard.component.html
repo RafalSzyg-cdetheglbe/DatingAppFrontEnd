@@ -1,0 +1,20 @@
+<body>
+<div class="w3-container">
+
+    <table class="table table-bordered table-striped">
+   
+        <tbody *ngFor="let user of users">
+            <tr>Witaj </tr>
+            <tr>{{ user.firstName }} {{ user.lastName }}</tr>
+    
+        </tbody>
+      </table>
+      <button (click)="goInfo()" class="btn">My info</button>
+      <button  (click)="goFindMatches()" class="btn">Find a match</button>
+      <button (click)="goMatches()"  class="btn">My matches</button>
+
+
+
+
+  </div>
+</body>
